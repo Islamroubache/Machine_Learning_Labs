@@ -1,46 +1,168 @@
-# Machine Learning Labs
+<div align="center">
 
-This repository contains my solutions for all the laboratory exercises of the "Machine Learning" course at the Higher School of Computer Science (08 May 1945), Sidi Bel Abbes, Algeria, for 1st-year Master's students specializing in Artificial Intelligence and Data Science.
+# 🤖 Machine Learning Labs
 
-## Overview
-The labs cover practical applications of machine learning, including:
+### *Higher School of Computer Science (08 May 1945)*
+**Sidi Bel Abbes, Algeria**
 
-1. Data Preprocessing & Cleaning: Handling missing values, outliers, categorical and continuous features.
+*1st-year Master's - Artificial Intelligence and Data Science*
 
-2. Exploratory Data Analysis (EDA): Visualizations using Matplotlib, Seaborn, and Plotly, correlation analysis, and statistical summaries.
+---
 
-3. Regression Models: Simple & multiple linear regression, metrics (MAE, MSE, RMSE, R²), and plotting actual vs predicted values.
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-4. Classification: Logistic Regression, Naive Bayes (including a custom mixed-type implementation), Decision Trees, SVM, KNN, and ensemble methods.
+</div>
 
-5. Dimensionality Reduction: PCA, Kernel PCA, TruncatedSVD, NMF, and feature selection based on correlation.
+---
 
-6. Clustering: KMeans with evaluation metrics like Silhouette Score and Davies-Bouldin Score.
+## 📚 Overview
 
-7. Machine Learning Pipelines: Use of scikit-learn Pipelines and ColumnTransformers for preprocessing and modeling.
+This repository contains comprehensive solutions for all laboratory exercises of the **Machine Learning** course. Each lab demonstrates practical applications of machine learning concepts, from data preprocessing to advanced modeling techniques.
 
-8. Dataset Handling: Loading and preprocessing datasets (e.g., CIFAR-10), flattening images, sampling, and label encoding.
+---
 
-9. Visualization & Analysis: Interactive plots, learning curves, and decision tree visualization with Graphviz.
+## 🎯 Course Content
 
-## Libraries Used
+<table>
+<tr>
+<td width="50%">
 
-- Python: core language
+### 🔧 **Data Preprocessing & Cleaning**
+- Handling missing values
+- Outlier detection & treatment
+- Categorical feature encoding
+- Continuous feature scaling
 
-- NumPy & Pandas: data handling
+### 📊 **Exploratory Data Analysis**
+- Advanced visualizations (Matplotlib, Seaborn, Plotly)
+- Correlation analysis
+- Statistical summaries
+- Distribution analysis
 
-- scikit-learn: preprocessing, models, metrics
+### 📈 **Regression Models**
+- Simple & multiple linear regression
+- Performance metrics (MAE, MSE, RMSE, R²)
+- Actual vs predicted visualizations
+- Residual analysis
 
-- Matplotlib, Seaborn, Plotly: visualization
+### 🎯 **Classification Algorithms**
+- Logistic Regression
+- Naive Bayes (custom mixed-type implementation)
+- Decision Trees
+- Support Vector Machines (SVM)
+- K-Nearest Neighbors (KNN)
+- Ensemble methods
 
-- Graphviz: tree visualization
+</td>
+<td width="50%">
 
-- Joblib: model saving/loading
+### 🔍 **Dimensionality Reduction**
+- Principal Component Analysis (PCA)
+- Kernel PCA
+- TruncatedSVD
+- Non-negative Matrix Factorization (NMF)
+- Correlation-based feature selection
 
-## Notes
+### 🔗 **Clustering Techniques**
+- KMeans algorithm
+- Silhouette Score evaluation
+- Davies-Bouldin Score
+- Cluster visualization
 
-- All notebooks include detailed comments and explanations of preprocessing steps, model selection, and evaluation.
+### ⚙️ **ML Pipelines**
+- scikit-learn Pipelines
+- ColumnTransformers
+- Automated preprocessing workflows
+- End-to-end model deployment
 
-- Datasets like CIFAR-10 are loaded efficiently and prepared for training/testing with proper feature and label handling.
+### 🗂️ **Dataset Handling**
+- CIFAR-10 loading & preprocessing
+- Image flattening techniques
+- Data sampling strategies
+- Label encoding methods
 
-- The repository demonstrates end-to-end machine learning workflow: data preparation → modeling → evaluation → visualization.
+### 📉 **Visualization & Analysis**
+- Interactive plots
+- Learning curves
+- Decision tree visualization (Graphviz)
+- Model performance dashboards
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Category | Technologies |
+|:--------:|:------------|
+| **Core Language** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) Python |
+| **Data Handling** | ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) NumPy • ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) Pandas |
+| **Machine Learning** | ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) scikit-learn |
+| **Visualization** | ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square) Matplotlib • ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square) Seaborn • ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white) Plotly |
+| **Tree Visualization** | ![Graphviz](https://img.shields.io/badge/Graphviz-2e3440?style=flat-square) Graphviz |
+| **Model Persistence** | ![Joblib](https://img.shields.io/badge/Joblib-00599C?style=flat-square) Joblib |
+
+</div>
+
+---
+
+## 📝 Key Features
+
+> **Comprehensive Documentation**
+> 
+> All notebooks include detailed comments and explanations of preprocessing steps, model selection, and evaluation metrics.
+
+> **Efficient Dataset Management**
+> 
+> Datasets like CIFAR-10 are loaded efficiently and prepared for training/testing with proper feature and label handling.
+
+> **End-to-End Workflow**
+> 
+> The repository demonstrates complete machine learning pipelines:
+> 
+> **Data Preparation** → **Modeling** → **Evaluation** → **Visualization**
+
+---
+
+## 🚀 Getting Started
+
+\`\`\`bash
+# Clone the repository
+git clone <repository-url>
+
+# Navigate to the project directory
+cd machine-learning-labs
+
+# Install required dependencies
+pip install -r requirements.txt
+
+# Launch Jupyter Notebook
+jupyter notebook
+\`\`\`
+
+---
+
+
+---
+
+<div align="center">
+
+### 🎓 Academic Excellence in Machine Learning
+
+**Higher School of Computer Science (ESI) - Sidi Bel Abbes**
+
+*Empowering the next generation of AI and Data Science professionals*
+
+---
+
+Made with ❤️ for Machine Learning Education
+
+</div>
